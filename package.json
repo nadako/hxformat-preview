@@ -1,0 +1,21 @@
+{
+	"name": "hxformat-preview",
+	"publisher": "nadako",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"activationEvents": [
+		"onCommand:hxformat-preview.open",
+		"onLanguage:json"
+	],
+	"main": "./hxformat-preview",
+	"contributes": {
+		"commands": [
+			{
+				"command": "hxformat-preview.open",
+				"title": "Open hxformat preview"
+			}
+		]
+	}
+}

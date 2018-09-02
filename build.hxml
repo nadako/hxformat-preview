@@ -1,0 +1,11 @@
+-cp src
+-lib vscode
+-js hxformat-preview.js
+-lib tokentree
+-lib tokentree-formatter
+-lib json2object
+-lib hxparse
+-lib haxeparser
+-debug
+Main
+
